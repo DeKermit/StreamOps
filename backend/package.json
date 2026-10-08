@@ -1,0 +1,22 @@
+{
+  "name": "streamops-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "StreamOps backend - live streamer control center (giveaways, tag tracking, alerts, polls, moderation, analytics)",
+  "main": "src/server.js",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "socket.io": "^4.7.5",
+    "uuid": "^9.0.1"
+  }
+}
